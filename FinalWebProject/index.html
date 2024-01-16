@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/mystyles.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="topnav">
+    <input type="text" id="poemon" name="fname" placeholder="Type pokemon name"><br><br>
+    <button onclick="pokemons(document.getElementById('poemon').value)">Click button pls</button>
+  </div>
+    <table class="table table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Sprite</th>
+            <th scope="col">Name</th>
+            <th scope="col">1st ability</th>
+            <th scope="col">2nd ability</th>
+            <th scope="col">3rd ability</th>
+            <th scope="col">4th ability</th>
+            <th scope="col">Held Item</th>
+            <th scope="col">Held Item</th>
+            <th scope="col">Held Item</th>
+          </tr>
+        </thead>
+        <tbody id="newrow">
+        </tbody>
+      </table>
+	<script src="/javascript/javascript.js"></script>
+</body>
+</html>
